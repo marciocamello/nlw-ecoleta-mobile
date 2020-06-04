@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Ecoleta App",
+    "slug": "ecoleta-app",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Ecoleta mobile is a application to search a collection points for recycling",
+    "githubUrl": "https://github.com/marciocamello/nlw-ecoleta-mobile"
   }
 }
