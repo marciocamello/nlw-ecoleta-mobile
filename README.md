@@ -1,10 +1,10 @@
 # Ecoleta Mobile
 
-![alt text](https://github.com/marciocamello/nlw-ecoleta-server/blob/master/capa.jpeg)
+![alt text](https://github.com/marciocamello/nlw-ecoleta-mobile/blob/master/capa.jpeg)
 
 ## Layout
 
-![alt text](https://github.com/marciocamello/nlw-ecoleta-server/blob/master/layout.jpeg)
+![alt text](https://github.com/marciocamello/nlw-ecoleta-mobile/blob/master/layout.jpeg)
 
 :rocket: Technologies
 
