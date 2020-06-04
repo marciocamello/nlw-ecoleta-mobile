@@ -1,6 +1,6 @@
 # Ecoleta Mobile
 
-![alt text](https://github.com/marciocamello/nlw-ecoleta-mobile/blob/master/layout.jpeg)
+![alt text](https://github.com/marciocamello/nlw-ecoleta-mobile/blob/master/layout.jpg)
 
 :rocket: Technologies
 
