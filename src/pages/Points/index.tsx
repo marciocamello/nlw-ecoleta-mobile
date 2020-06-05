@@ -18,6 +18,7 @@ interface Point{
   id: number;
   name: string;
   image: string;
+  image_url: string;
   latitude: number;
   longitude: number;
 }
@@ -157,18 +158,18 @@ const Points = () => {
             paddingHorizontal: 20
           }}
         >
-          {items.map(item  =>(
+          {items.map(point  =>(
             <TouchableOpacity 
-              key={String(item.id)} 
+              key={String(point.id)} 
               style={[
                 styles.item,
-                selectedItems.includes(item.id) ? styles.selectedItem: {}
+                selectedItems.includes(point.id) ? styles.selectedItem: {}
               ]} 
-              onPress={() => handleSelectItem(item.id)}
+              onPress={() => handleSelectItem(point.id)}
               activeOpacity={0.6}
             >
-              <SvgUri width={42} height={42} uri={item.image_url}/>
-              <Text style={styles.itemTitle}>{item.title}</Text>
+              <SvgUri width={42} height={42} uri={point.image_url}/>
+              <Text style={styles.itemTitle}>{point.title}</Text>
             </TouchableOpacity>
           ))}
         </ScrollView>

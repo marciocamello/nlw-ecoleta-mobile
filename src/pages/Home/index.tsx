@@ -48,6 +48,7 @@ const Home = () => {
             value:  city.nome
           }
         })
+
         setCities(cityNames)
       })
   }, [selectedUf]);
