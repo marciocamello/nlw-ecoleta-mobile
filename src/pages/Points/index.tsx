@@ -138,7 +138,7 @@ const Points = () => {
                     <Image 
                       style={styles.mapMarkerImage}
                       source={{
-                        uri: point.image
+                        uri: point.image_url
                       }}
                     />
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>
@@ -158,18 +158,18 @@ const Points = () => {
             paddingHorizontal: 20
           }}
         >
-          {items.map(point  =>(
+          {items.map(item  =>(
             <TouchableOpacity 
-              key={String(point.id)} 
+              key={String(item.id)} 
               style={[
                 styles.item,
-                selectedItems.includes(point.id) ? styles.selectedItem: {}
+                selectedItems.includes(item.id) ? styles.selectedItem: {}
               ]} 
-              onPress={() => handleSelectItem(point.id)}
+              onPress={() => handleSelectItem(item.id)}
               activeOpacity={0.6}
             >
-              <SvgUri width={42} height={42} uri={point.image_url}/>
-              <Text style={styles.itemTitle}>{point.title}</Text>
+              <SvgUri width={42} height={42} uri={item.image_url}/>
+              <Text style={styles.itemTitle}>{item.title}</Text>
             </TouchableOpacity>
           ))}
         </ScrollView>

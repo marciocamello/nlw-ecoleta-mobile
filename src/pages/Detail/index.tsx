@@ -38,7 +38,7 @@ const Detail = () => {
       .then(response => {
         setData(response.data)
       })
-  })
+  }, [])
 
   function handleNavigateToBack() {
     navigation.goBack();
